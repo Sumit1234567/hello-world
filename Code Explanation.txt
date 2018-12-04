@@ -1,9 +1,0 @@
-relay_state_save(); => This function save the data of relay pin to EEPROM
-
-led_blink(); => Blink the led based on on time and off time
-				DNP: ON=200 & OFF=200 --> DEVICE ID NOT AVAILABLE
-				WCNA: ON=3000 & OFF=3000 --> WIFI CREDENTIAL NOT AVAILABLE
-				WANC: ON=1000 & OFF=1000 --> WIFI AVAILABLE BUT NOT ABLE CONNECT
-				WASNA ON=200 & OFF=2000 --> WIFI AVAILABLEBUT SSID IS NOT CORRECT
-				MQNC ON=200 & OFF=2000 --> MQTT NOT AVAILABLE
-				FRS ON=500 & OFF=500 --> FACTORY RESET
